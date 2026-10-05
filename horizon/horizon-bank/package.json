@@ -1,0 +1,16 @@
+{
+    "name": "horizon-bank",
+    "version": "1.0.0",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "dev": "node --watch src/app.js"
+    },
+    "dependencies": {
+      "dotenv": "^16.4.7",
+      "express": "^5.1.0",
+      "ioredis": "^5.4.1",
+      "kafkajs": "^2.2.4",
+      "pg": "^8.16.3"
+    }
+  }
